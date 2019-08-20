@@ -24,3 +24,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (min-width: 768px) {
+  
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
