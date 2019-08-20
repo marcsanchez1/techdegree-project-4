@@ -1,2 +1,26 @@
 // Buttons
 
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  .default {
+    background-color: $default-bg-color;
+  }
+  .error {
+    background-color: $error-bg-color;
+  }
+  .info {
+    background-color: $info-bg-color;
+  }
+  .success {
+    background-color: $success-bg-color;
+  }
+  .warning {
+    background-color: $warning-bg-color;
+  }
+}

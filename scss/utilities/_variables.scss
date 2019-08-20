@@ -1,7 +1,9 @@
 // Variables
 
+$white: #fff;
+
 // Base styles
-$font-stack: 'Lato', sans-serif;
+$font-stack-primary: 'Lato', sans-serif;
 $text-color: #777;
 $max-width: 1400px;
 
@@ -9,31 +11,26 @@ $max-width: 1400px;
 $headline-primary: #58e1c1;
 $headline-secondary: #777;
 $link-color: #51ddfc;
-$bold-font: 700;
+$font-bold: 700;
 
 // Grid System layout and breakpoints
 
 $breakpoints: (
- 'xs': 575px,
- 'sm': 576px,
- 'med': 768px,
  'lg': 992px,
 );
 
-$themes: (
-  'col-1-bg': #927bc1,
-  'col-2-bg': #fd7856,
-  'col-3-bg': #deb2ee,
-  'col-4-bg': #7ee6fd,
-  'col-5-bg': #88d9a0,
-  'col-6-bg': #4da2bb,
-  'col-7-bg': #ec9fa3,
-  'col-8-bg': #fd9f85,
-  'col-9-bg': #e4757a,
-  'col-10-bg': #63cc82,
-  'col-11-bg': #51ddfc,
-  'col-12-bg': #80e8d1,
-);
+$col-1-bg: #927bc1;
+$col-2-bg: #fd7856;
+$col-3-bg: #deb2ee;
+$col-4-bg: #7ee6fd;
+$col-5-bg: #88d9a0;
+$col-6-bg: #4da2bb;
+$col-7-bg: #ec9fa3;
+$col-8-bg: #fd9f85;
+$col-9-bg: #e4757a;
+$col-10-bg: #63cc82;
+$col-11-bg: #51ddfc;
+$col-12-bg: #80e8d1;
 
 // Buttons
 $default-bg-color: #51ddfc;
