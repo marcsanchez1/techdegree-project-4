@@ -1,10 +1,11 @@
-/* Error: expected more input.
+/* Error: Undefined variable.
  *   ,
- * 4 |         'typography.scss',
- *   |                           ^
+ * 5 |   color: $headline-secondary;
+ *   |          ^^^^^^^^^^^^^^^^^^^
  *   '
- *   scss/base/_index.scss 4:27  @import
- *   scss/styles.scss 3:9        root stylesheet */
+ *   scss/base/_typography.scss 5:10  @import
+ *   scss/base/_index.scss 4:9        @import
+ *   scss/styles.scss 3:9             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected more input.\a   \2577 \a 4 \2502          'typography.scss',\a   \2502                            ^\a   \2575 \a   scss/base/_index.scss 4:27  @import\a   scss/styles.scss 3:9        root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 5 \2502    color: $headline-secondary;\a   \2502           ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/base/_typography.scss 5:10  @import\a   scss/base/_index.scss 4:9        @import\a   scss/styles.scss 3:9             root stylesheet";
 }
