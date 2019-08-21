@@ -15,28 +15,28 @@
   background-color: $error-bg-color;
   transition: background-color .2s ease-in-out;
   &:hover {
-    background-color: lighten($default-bg-color, 15%);
+    background-color: lighten($error-bg-color, 15%);
   }
 }
 .info {
   background-color: $info-bg-color;
   transition: background-color .2s ease-in-out;
   &:hover {
-    background-color: lighten($default-bg-color, 15%);
+    background-color: lighten($info-bg-color, 15%);
   }
 }
 .success {
   background-color: $success-bg-color;
   transition: background-color .2s ease-in-out;
   &:hover {
-    background-color: lighten($default-bg-color, 15%);
+    background-color: lighten($success-bg-color, 15%);
   }
 }
 .warning {
   background-color: $warning-bg-color;
   transition: background-color .2s ease-in-out;
   &:hover {
-    background-color: lighten($default-bg-color, 15%);
+    background-color: lighten($warning-bg-color, 15%);
   }
 }
 

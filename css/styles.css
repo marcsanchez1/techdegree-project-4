@@ -198,7 +198,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .error:hover {
-  background-color: #9cecfd;
+  background-color: #f1b5b8;
 }
 
 .info {
@@ -206,7 +206,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .info:hover {
-  background-color: #9cecfd;
+  background-color: #bdafd9;
 }
 
 .success {
@@ -214,7 +214,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .success:hover {
-  background-color: #9cecfd;
+  background-color: #9ddfb0;
 }
 
 .warning {
@@ -222,7 +222,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .warning:hover {
-  background-color: #9cecfd;
+  background-color: #feb4a2;
 }
 
 @media (min-width: 768px) {
