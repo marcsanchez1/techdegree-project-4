@@ -153,7 +153,7 @@
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-.nav .nav-link .nav-link:hover {
+.nav .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
@@ -181,22 +181,42 @@
 
 .default {
   background-color: #51ddfc;
+  transition: background-color 0.2s ease-in-out;
+}
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  transition: background-color 0.2s ease-in-out;
+}
+.error:hover {
+  background-color: #9cecfd;
 }
 
 .info {
   background-color: #927bc1;
+  transition: background-color 0.2s ease-in-out;
+}
+.info:hover {
+  background-color: #9cecfd;
 }
 
 .success {
   background-color: #63cc82;
+  transition: background-color 0.2s ease-in-out;
+}
+.success:hover {
+  background-color: #9cecfd;
 }
 
 .warning {
   background-color: #fd7856;
+  transition: background-color 0.2s ease-in-out;
+}
+.warning:hover {
+  background-color: #9cecfd;
 }
 
 @media (min-width: 768px) {

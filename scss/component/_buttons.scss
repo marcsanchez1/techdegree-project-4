@@ -1,29 +1,43 @@
 // Buttons
 
 .btn {
-  margin-top: 15px;
-  width: 100%;
-  color: $white;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
+  @include button;
 }
 
 .default {
   background-color: $default-bg-color;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background-color: lighten($default-bg-color, 15%);
+  }
 }
 .error {
   background-color: $error-bg-color;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background-color: lighten($default-bg-color, 15%);
+  }
 }
 .info {
   background-color: $info-bg-color;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background-color: lighten($default-bg-color, 15%);
+  }
 }
 .success {
   background-color: $success-bg-color;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background-color: lighten($default-bg-color, 15%);
+  }
 }
 .warning {
   background-color: $warning-bg-color;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background-color: lighten($default-bg-color, 15%);
+  }
 }
 
 @media (min-width: 768px) {
