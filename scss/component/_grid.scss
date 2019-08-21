@@ -75,6 +75,12 @@
   .container {
     @include center($max-width);
   }
+
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .row {
     flex-direction: row;
